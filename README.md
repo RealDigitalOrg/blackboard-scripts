@@ -37,7 +37,7 @@ Some of the install scripts require a network connection to run properly.  The s
 
 There are scripts for setting up some options included.  The scripts include:
 
- * build-devicetree.sh: Builds devicetree.dtb from the source files located in /root/Src/dts.  The devicetree.dtb file is one of the files located on the boot partition of the SD card.  The source files were generated using xsdk and the Xilinx device tree generator.  See the following web link for details: https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18842279/Build+Device+Tree+Blob  One extra line is added to the bottom of the system-top.dts file after generating the device tree files.
+ * build-devicetree.sh: Builds devicetree.dtb from the source files located in /root/Src/dts.  The devicetree.dtb file is one of the files located on the boot partition of the SD card.  The source files were generated using xsdk and the Xilinx device tree generator.  See the following web link for details: <https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18842279/Build+Device+Tree+Blob>  One extra line is added to the bottom of the system-top.dts file after generating the device tree files.
 
 ```
 /include/ "system-user.dtsi"
@@ -48,6 +48,8 @@ There are scripts for setting up some options included.  The scripts include:
  * install-desktop.sh: Install the LXDE (Lubuntu) desktop.  This script requires a network connection.
 
  * install-gvim.sh: Installs a graphical version of vim for use with X Windows.  This script requires a network connection.
+
+ * install-lazarus.sh: Installs the Lazarus IDE, which is a graphical RAD development tool that generates Free Pascal programs.  For more details, see <http://lazarus-ide.org>.  This script requires a network connection.
 
  * set-runlevel.sh: The -g option will set the default to graphical login mode while the -t option will restore the default to text mode.
 
