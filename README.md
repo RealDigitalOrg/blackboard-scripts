@@ -45,7 +45,7 @@ There are scripts for setting up some options included.  The scripts include:
 
  * build-swap.sh: Builds a swap file and extends the Linux partition to the maximum size of the SD card when using the -e option.  This script is described above in the "Getting Started" section.
 
- * install-desktop.sh: Install the LXDE (Lubuntu) desktop.  This script requires a network connection.
+ * install-desktop.sh: Install the Lubuntu desktop so that selecting Lubuntu in the greeter will login properly instead of just returning to the greeter.  This script requires a network connection.
 
  * install-gvim.sh: Installs a graphical version of vim for use with X Windows.  This script requires a network connection.
 
