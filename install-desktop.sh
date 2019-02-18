@@ -6,4 +6,4 @@
 # This script requires a network connection.
 # Written by Rick Hoover on February 16th, 2019
 
-apt install lubuntu-desktop libpam-kwallet4 libpam-kwallet5 upstart
+apt install lubuntu-desktop upstart gnome-session
