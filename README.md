@@ -1,4 +1,4 @@
-# Project Title
+# Scripts included with Blackboard in /root/Scripts
 
 This directory contains scripts that can be used to enhance Linux on the SD card.  
 
