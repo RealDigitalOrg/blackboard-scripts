@@ -20,7 +20,7 @@ fi
 apt install lazarus
 
 # Create links to crtbegin.o and crtend.o
-if [ -n ${C_VER} ]; then
+if [ -n "${C_VER}" ]; then
 	CRT_DIR=${CRT_DIR}/${C_VER}
 	ln -s ${CRT_DIR}/crtbegin.o .
 	ln -s ${CRT_DIR}/crtend.o .
