@@ -5,6 +5,7 @@
 #   -t | --terminal:  Set the boot mode to terminal.
 #
 # Written by Rick Hoover on February 16th, 2019
+# Updated on May 24th, 2021 to support use of systemd-sysv instead of upstart.
 
 mode=
 
@@ -38,12 +39,12 @@ done
 
 if [ "$mode" == "t" ]; then
 	echo "Setting default boot to terminal mode."
-	systemctl enable multi-user.target
+#	systemctl enable multi-user.target
 	systemctl set-default multi-user.target
 fi
 
 if [ "$mode" == "g" ]; then
 	echo "Setting default boot to graphical login."
-	systemctl enable graphical.target
+#	systemctl enable graphical.target
 	systemctl set-default graphical.target
 fi
